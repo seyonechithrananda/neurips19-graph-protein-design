@@ -1,5 +1,6 @@
 import os, time, gzip, json
-from util_mmtf import *
+import sys; sys.path.append('/home/hunter/projects/structure/neurips19-graph-protein-design/data')
+from mmtf_util import *
 from collections import defaultdict
 
 MAX_LENGTH = 500
